@@ -1,6 +1,6 @@
 # Yelp Camp
 
-# Flow of the project
+<h4>Flow of the project<h4>
 
 # Create a landing page
 
@@ -22,16 +22,6 @@
 # Review the schema
 - add more fields to the schema which are needed
 
-# Restfull routes
---------------------------------------------------
-name    url               http-verb   desciption
---------------------------------------------------
-
-Index   /campgrounds       GET         display all the campground
-New     /campgrounds/new   GET         display the form
-Create  /campgrounds       POST        Adds a new campground
-Show    /campground/:id    GET         Display a specific campground 
-
 # Refactor app.js
 - make a more modular code
 
@@ -47,32 +37,3 @@ Show    /campground/:id    GET         Display a specific campground
 - Add comments route (nested route)
 - Add new comments form
 
-# Comments Routes
-use the route /campground/:id before using following routes
-=====================================================
-name    url             http-verb   description
-=====================================================
-New     /comments/new   GET         
-Create  /comments       POST
-
-# Style the comments
-
-# Add Authentication
-- Add the required packages (passport, passport-local-strategy, express-session)
-**Note**: Create a user model
-- Setup the passport
-- Add the authentication routes
-
-# Authentication Routes
-============================================
-name          url           http-verb
-============================================
-Registration  /register     GET
-Registration  /register     POST
-Login         /login        GET
-Login         /login        POST
-
-- Create a middleware to check if a user is logged in or not. 
-- This will be helpful to check if the user can add comments or not.s
-
-nav navbar-nav navbar-right
