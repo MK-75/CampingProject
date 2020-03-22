@@ -23,9 +23,10 @@
 - add more fields to the schema which are needed
 
 # Restfull routes
-=========================================================================
+--------------------------------------------------
 name    url               http-verb   desciption
-=========================================================================
+--------------------------------------------------
+
 Index   /campgrounds       GET         display all the campground
 New     /campgrounds/new   GET         display the form
 Create  /campgrounds       POST        Adds a new campground
